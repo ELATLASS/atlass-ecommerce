@@ -1,4 +1,4 @@
-name: CI/CD — E-commerce Automation
+name: CI
 
 on:
   push:
