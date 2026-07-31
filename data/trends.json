@@ -1,0 +1,1547 @@
+{
+  "data analysis agent LLM": {
+    "trend_name": "data analysis agent LLM",
+    "github": {
+      "repos_found": 10,
+      "total_stars": 9286,
+      "total_forks": 1253,
+      "top_languages": {
+        "Python": 8,
+        "TypeScript": 1,
+        "JavaScript": 1
+      },
+      "top_repos": [
+        {
+          "name": "netease-youdao/LobsterAI",
+          "stars": 5726,
+          "language": "TypeScript",
+          "created": "2026-02-12T09:56:20Z",
+          "description": "Open-source, desktop-grade AI agent that gets real work done \u2014 data analysis, slides, docs, video & web research. Built on OpenClaw; runs tools on you",
+          "url": "https://github.com/netease-youdao/LobsterAI",
+          "topics": [
+            "agent",
+            "ai-agent",
+            "ai-assistant",
+            "automation",
+            "autonomous-agents",
+            "chatbot",
+            "copilot",
+            "cross-platform",
+            "desktop-app",
+            "electron",
+            "llm",
+            "mcp",
+            "office-automation",
+            "openclaw",
+            "productivity",
+            "react",
+            "tyepscript"
+          ]
+        },
+        {
+          "name": "Zafer-Liu/Data-Analysis-Agent",
+          "stars": 2099,
+          "language": "JavaScript",
+          "created": "2026-04-21T06:04:19Z",
+          "description": "\ud83d\ude80\u4f60\u7684\u79c1\u4eba\u6570\u636e\u5206\u6790\u52a9\u624b\u3002\u901a\u8fc7\u5bf9\u8bdd\u5f0f\u4ea4\u4e92\uff0c\u81ea\u52a8\u751f\u6210\u53ef\u89c6\u5316\u62a5\u8868\u4e0e\u5546\u4e1a\u6d1e\u5bdf\uff0c\u8ba9\u6570\u636e\u51b3\u7b56\u53d8\u5f97\u50cf\u804a\u5929\u4e00\u6837\u7b80\u5355\u3002  \ud83d\ude80 Your personal data analysis assistant. Say goodbye to complex SQL and Excel formulas.  An LLM-po",
+          "url": "https://github.com/Zafer-Liu/Data-Analysis-Agent",
+          "topics": [
+            "agent",
+            "ai",
+            "ai-tools",
+            "analysis",
+            "charts",
+            "datavisualization"
+          ]
+        },
+        {
+          "name": "zhongyu09/openchatbi",
+          "stars": 610,
+          "language": "Python",
+          "created": "2025-09-09T02:08:10Z",
+          "description": "OpenChatBI is an intelligent chat-based BI tool powered by large language models, designed to help users query, analyze, and visualize data through na",
+          "url": "https://github.com/zhongyu09/openchatbi",
+          "topics": [
+            "agent",
+            "ai",
+            "analytics",
+            "anomaly-detection",
+            "bi",
+            "chatbi",
+            "data-agent",
+            "database",
+            "datawarehouse",
+            "drill-down",
+            "gpt",
+            "langchain",
+            "langgraph",
+            "llm",
+            "nlp",
+            "root-cause-analysis",
+            "text2sql"
+          ]
+        },
+        {
+          "name": "li-xiu-qi/data_analysis_agent",
+          "stars": 208,
+          "language": "Python",
+          "created": "2025-06-06T06:48:29Z",
+          "description": "\u6570\u636e\u5206\u6790\u667a\u80fd\u4f53 (Data Analysis Agent)\uff1a\u57fa\u4e8eLLM\u7684\u667a\u80fd\u6570\u636e\u5206\u6790\u667a\u80fd\u4f53",
+          "url": "https://github.com/li-xiu-qi/data_analysis_agent",
+          "topics": []
+        },
+        {
+          "name": "colossus-lab/openarg_backend",
+          "stars": 142,
+          "language": "Python",
+          "created": "2026-03-22T01:47:18Z",
+          "description": "AI-powered analysis engine for Argentine government open   data. Multi-agent pipeline (LangGraph) with 10 data   connectors, NL2SQL, semantic caching,",
+          "url": "https://github.com/colossus-lab/openarg_backend",
+          "topics": []
+        }
+      ]
+    },
+    "hacker_news": {
+      "stories_found": 10,
+      "total_points": 666,
+      "total_comments": 291,
+      "top_stories": [
+        {
+          "title": "Show HN: RowboatX \u2013 open-source Claude Code for everyday automations",
+          "url": "https://github.com/rowboatlabs/rowboat",
+          "points": 131,
+          "comments": 42,
+          "created_at": "2025-11-18T18:50:00Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: Fast-agent \u2013 Compose MCP enabled Agents and Workflows in minutes",
+          "url": "https://github.com/evalstate/fast-agent",
+          "points": 29,
+          "comments": 3,
+          "created_at": "2025-03-06T16:34:20Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: LTE-connected IoT module with remote programming and NL data analysis",
+          "url": "https://www.youtube.com/watch?v=3L_OU-fMW_w",
+          "points": 27,
+          "comments": 25,
+          "created_at": "2025-04-17T13:35:58Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Launch HN: Plexe (YC X25) \u2013 Build production-grade ML models from prompts",
+          "url": "https://www.plexe.ai/",
+          "points": 85,
+          "comments": 31,
+          "created_at": "2025-11-04T17:07:47Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Launch HN: BitBoard (YC P25) \u2013 Analytics Workspace for Agents",
+          "url": "https://bitboard.work/",
+          "points": 58,
+          "comments": 25,
+          "created_at": "2026-06-12T16:58:03Z",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    "reddit": {
+      "posts_found": 0,
+      "total_score": 0,
+      "total_comments": 0,
+      "top_posts": []
+    },
+    "growth_estimate": "+8 new repos (2025 H2)",
+    "sources_graded": [
+      {
+        "url": "https://github.com/netease-youdao/LobsterAI",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/Zafer-Liu/Data-Analysis-Agent",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/zhongyu09/openchatbi",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/li-xiu-qi/data_analysis_agent",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/colossus-lab/openarg_backend",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/rowboatlabs/rowboat",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://github.com/evalstate/fast-agent",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=3L_OU-fMW_w",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://www.plexe.ai/",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://bitboard.work/",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      }
+    ],
+    "analyzed_at": "2026-07-31T02:28:59.180365+00:00"
+  },
+  "AI data analytics open source": {
+    "trend_name": "AI data analytics open source",
+    "github": {
+      "repos_found": 10,
+      "total_stars": 924,
+      "total_forks": 254,
+      "top_languages": {
+        "Python": 3,
+        "TypeScript": 2,
+        "JavaScript": 1,
+        "Jupyter Notebook": 1,
+        "Vue": 1
+      },
+      "top_repos": [
+        {
+          "name": "datagallery-lab/datafoundry",
+          "stars": 557,
+          "language": "TypeScript",
+          "created": "2026-06-18T07:03:43Z",
+          "description": "DataFoundry is an open-source AI workbench for data analysis, unifying data sources, knowledge, tools, and agent runtime into a governed workspace for",
+          "url": "https://github.com/datagallery-lab/datafoundry",
+          "topics": [
+            "ag-ui",
+            "agent-runtime",
+            "ai",
+            "ai-agents",
+            "data-analysis",
+            "data-sources",
+            "data-workbench",
+            "ink",
+            "mastra"
+          ]
+        },
+        {
+          "name": "AOSSIE-Org/InPactAI",
+          "stars": 99,
+          "language": "TypeScript",
+          "created": "2025-02-28T14:41:24Z",
+          "description": "Inpact is an open-source AI-powered platform designed to connect content creators, brands, and agencies through data-driven insights. By leveraging Ge",
+          "url": "https://github.com/AOSSIE-Org/InPactAI",
+          "topics": [
+            "agentic-ai",
+            "collaboration",
+            "creator-economy",
+            "genai-usecase",
+            "social-media"
+          ]
+        },
+        {
+          "name": "AnyAI-Labs/AnyAI",
+          "stars": 80,
+          "language": "JavaScript",
+          "created": "2026-03-16T10:37:04Z",
+          "description": "AnyAI - Open-source AI-powered crypto trading platform & Chrome extension. Real-time market data, futures    analytics, TD Sequential, sentiment track",
+          "url": "https://github.com/AnyAI-Labs/AnyAI",
+          "topics": [
+            "ai-trading",
+            "anyai",
+            "crypto-trading"
+          ]
+        },
+        {
+          "name": "ralforion/orionbelt-semantic-layer",
+          "stars": 71,
+          "language": "Python",
+          "created": "2026-02-10T16:10:48Z",
+          "description": "Open-source Semantic Sidecar for AI, analytics, and governed data systems. Compiles declarative YAML models into optimized SQL, semantic context, KPIs",
+          "url": "https://github.com/ralforion/orionbelt-semantic-layer",
+          "topics": [
+            "agentic-ai",
+            "analytics-as-code",
+            "bigquery",
+            "business-intelligence",
+            "clickhouse",
+            "data-analytics",
+            "databricks",
+            "dremio",
+            "duckdb",
+            "headless-bi",
+            "mcp",
+            "mcp-server",
+            "metrics-layer",
+            "mysql",
+            "postgresql",
+            "semantic-layer",
+            "semantic-sidecar",
+            "snowflake",
+            "text-to-sql",
+            "yaml"
+          ]
+        },
+        {
+          "name": "FinGeniusAPP/FinGeniusAPP",
+          "stars": 32,
+          "language": "Jupyter Notebook",
+          "created": "2025-02-12T17:56:57Z",
+          "description": "FinGenius is an open-source AI-powered finance assistant that helps users analyze, optimize, and automate financial decisions using machine learning a",
+          "url": "https://github.com/FinGeniusAPP/FinGeniusAPP",
+          "topics": []
+        }
+      ]
+    },
+    "hacker_news": {
+      "stories_found": 10,
+      "total_points": 1205,
+      "total_comments": 442,
+      "top_stories": [
+        {
+          "title": "Launch HN: MinusX (YC S24) \u2013 AI assistant for data tools like Jupyter/Metabase",
+          "url": "https://news.ycombinator.com/item?id=",
+          "points": 96,
+          "comments": 29,
+          "created_at": "2024-08-20T16:24:02Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: YoBulk AI \u2013 Open Source React SDK for data cleansing",
+          "url": "https://yobulk.dev/",
+          "points": 20,
+          "comments": 13,
+          "created_at": "2023-03-07T15:37:54Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: Typeform was too expensive so I built my own forms",
+          "url": "https://www.ikiform.com/",
+          "points": 190,
+          "comments": 95,
+          "created_at": "2025-07-10T09:02:51Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: Sourcetable \u2013 AI Spreadsheet and Data Platform",
+          "url": "https://news.ycombinator.com/item?id=",
+          "points": 188,
+          "comments": 88,
+          "created_at": "2024-09-19T11:28:24Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: PlayBooks \u2013 Jupyter Notebooks style on-call investigation documents",
+          "url": "https://github.com/DrDroidLab/PlayBooks",
+          "points": 147,
+          "comments": 35,
+          "created_at": "2024-06-04T12:29:16Z",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    "reddit": {
+      "posts_found": 0,
+      "total_score": 0,
+      "total_comments": 0,
+      "top_posts": []
+    },
+    "growth_estimate": "+7 new repos (2025 H2)",
+    "sources_graded": [
+      {
+        "url": "https://github.com/datagallery-lab/datafoundry",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/AOSSIE-Org/InPactAI",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/AnyAI-Labs/AnyAI",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/ralforion/orionbelt-semantic-layer",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/FinGeniusAPP/FinGeniusAPP",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://yobulk.dev/",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://www.ikiform.com/",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://github.com/DrDroidLab/PlayBooks",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      }
+    ],
+    "analyzed_at": "2026-07-31T02:29:00.916333+00:00"
+  },
+  "multi-agent data analysis": {
+    "trend_name": "multi-agent data analysis",
+    "github": {
+      "repos_found": 10,
+      "total_stars": 1255,
+      "total_forks": 179,
+      "top_languages": {
+        "Python": 6,
+        "Java": 1,
+        "Jupyter Notebook": 1,
+        "TypeScript": 1,
+        "HTML": 1
+      },
+      "top_repos": [
+        {
+          "name": "databufflabs/databuff",
+          "stars": 455,
+          "language": "Java",
+          "created": "2026-06-18T02:06:27Z",
+          "description": "AI-native OpenTelemetry APM with multi-agent root-cause analysis across traces, metrics, and service topology",
+          "url": "https://github.com/databufflabs/databuff",
+          "topics": [
+            "ai",
+            "ai-native",
+            "aiops",
+            "apm",
+            "application-monitoring",
+            "devops",
+            "distributed-tracing",
+            "java",
+            "llm-observability",
+            "microservices",
+            "monitoring",
+            "multi-agent",
+            "observability",
+            "open-source",
+            "opentelemetry",
+            "root-cause-analysis",
+            "skywalking",
+            "sreagent",
+            "tracing"
+          ]
+        },
+        {
+          "name": "Anaconda-Labs/building-intelligent-apps-with-anaconda",
+          "stars": 228,
+          "language": "Jupyter Notebook",
+          "created": "2026-04-13T16:05:34Z",
+          "description": "10-part module to build AI-native apps. From data analysis to multi-agent model harness. For curious learners and serious AI builders.",
+          "url": "https://github.com/Anaconda-Labs/building-intelligent-apps-with-anaconda",
+          "topics": [
+            "ai",
+            "ai-agents",
+            "anaconda-distribution",
+            "conda",
+            "conda-forge",
+            "nasa",
+            "nvidia-gpu",
+            "python"
+          ]
+        },
+        {
+          "name": "bio-xyz/BioAgents",
+          "stars": 180,
+          "language": "TypeScript",
+          "created": "2025-10-17T12:59:30Z",
+          "description": "BioAgents: An AI scientist framework for autonomous deep research in biological sciences. Multi-agent system combining literature analysis agents with",
+          "url": "https://github.com/bio-xyz/BioAgents",
+          "topics": [
+            "agentic-ai",
+            "ai-scientist",
+            "desci",
+            "science"
+          ]
+        },
+        {
+          "name": "colossus-lab/openarg_backend",
+          "stars": 142,
+          "language": "Python",
+          "created": "2026-03-22T01:47:18Z",
+          "description": "AI-powered analysis engine for Argentine government open   data. Multi-agent pipeline (LangGraph) with 10 data   connectors, NL2SQL, semantic caching,",
+          "url": "https://github.com/colossus-lab/openarg_backend",
+          "topics": []
+        },
+        {
+          "name": "Varn1t/EDAgent",
+          "stars": 67,
+          "language": "Python",
+          "created": "2026-05-10T15:53:55Z",
+          "description": "Multi-agent exploratory data analysis system with autonomous insights, visualization, preprocessing, and reporting workflows.",
+          "url": "https://github.com/Varn1t/EDAgent",
+          "topics": [
+            "agentic-ai",
+            "ai",
+            "automation",
+            "data-analysis",
+            "eda",
+            "llm",
+            "machine-learning",
+            "multi-agent",
+            "pandas",
+            "python",
+            "visualization"
+          ]
+        }
+      ]
+    },
+    "hacker_news": {
+      "stories_found": 3,
+      "total_points": 269,
+      "total_comments": 159,
+      "top_stories": [
+        {
+          "title": "Launch HN: Plexe (YC X25) \u2013 Build production-grade ML models from prompts",
+          "url": "https://www.plexe.ai/",
+          "points": 85,
+          "comments": 31,
+          "created_at": "2025-11-04T17:07:47Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: Text to 3D simulation on a map (does history pretty well)",
+          "url": "https://mused.com/map/",
+          "points": 72,
+          "comments": 48,
+          "created_at": "2025-05-20T11:43:55Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Launch HN: Webhound (YC S23) \u2013 Research agent that builds datasets from the web",
+          "url": "https://news.ycombinator.com/item?id=",
+          "points": 112,
+          "comments": 80,
+          "created_at": "2025-09-25T14:28:24Z",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    "reddit": {
+      "posts_found": 0,
+      "total_score": 0,
+      "total_comments": 0,
+      "top_posts": []
+    },
+    "growth_estimate": "+8 new repos (2025 H2)",
+    "sources_graded": [
+      {
+        "url": "https://github.com/databufflabs/databuff",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/Anaconda-Labs/building-intelligent-apps-with-anaconda",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/bio-xyz/BioAgents",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/colossus-lab/openarg_backend",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/Varn1t/EDAgent",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://www.plexe.ai/",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://mused.com/map/",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      }
+    ],
+    "analyzed_at": "2026-07-31T02:29:02.111392+00:00"
+  },
+  "LLM data science automation": {
+    "trend_name": "LLM data science automation",
+    "github": {
+      "repos_found": 10,
+      "total_stars": 18,
+      "total_forks": 8,
+      "top_languages": {
+        "Python": 8,
+        "Jupyter Notebook": 1
+      },
+      "top_repos": [
+        {
+          "name": "zimingyou01/DatawiseAgent",
+          "stars": 8,
+          "language": "Python",
+          "created": "2025-09-17T12:34:09Z",
+          "description": "[EMNLP 2025] DatawiseAgent: A Notebook-Centric LLM Agent Framework for Adaptive and Robust Data Science Automation",
+          "url": "https://github.com/zimingyou01/DatawiseAgent",
+          "topics": [
+            "agentic-framework",
+            "natural-language-processing"
+          ]
+        },
+        {
+          "name": "Alfredd43/N8N-workflow-for-Github",
+          "stars": 7,
+          "language": null,
+          "created": "2025-07-11T06:25:27Z",
+          "description": "Production-ready n8n workflow that fetches trending AI/ML/Data Science GitHub repos, categorizes them, and generates daily markdown digests with techn",
+          "url": "https://github.com/Alfredd43/N8N-workflow-for-Github",
+          "topics": []
+        },
+        {
+          "name": "Shuvadip-Dutta/AI-DataScience-Team",
+          "stars": 1,
+          "language": "Jupyter Notebook",
+          "created": "2026-07-29T12:59:07Z",
+          "description": "A LangGraph-powered multi-agent AI system that automates exploratory data analysis (EDA), visualization, and report generation on tabular datasets.",
+          "url": "https://github.com/Shuvadip-Dutta/AI-DataScience-Team",
+          "topics": [
+            "ai-agents",
+            "automation",
+            "data-analysis",
+            "eda",
+            "generative-ai",
+            "groq",
+            "langchain",
+            "langgraph",
+            "llm",
+            "multi-agent",
+            "python"
+          ]
+        },
+        {
+          "name": "im-aswajith/nexus-coder",
+          "stars": 1,
+          "language": "Python",
+          "created": "2026-04-12T04:06:24Z",
+          "description": "Fully offline terminal AI assistant \u2014 Qwen2.5-Coder-7B, GPU/CPU optimized, persistent sessions, anti-hallucination. For red team, data science & advan",
+          "url": "https://github.com/im-aswajith/nexus-coder",
+          "topics": [
+            "artificial-intelligence",
+            "automation",
+            "chatbot",
+            "ctf-challenges",
+            "cybersecurity",
+            "data-science",
+            "llm",
+            "machine-learning",
+            "nexus-coder",
+            "python",
+            "redteam"
+          ]
+        },
+        {
+          "name": "chetan0220/Noesis",
+          "stars": 1,
+          "language": "Python",
+          "created": "2025-09-20T16:10:47Z",
+          "description": "Noesis is an AI\u2011Powered Data Analysis Platform which streamlines data science workflows by combining Large Language Models with the Model\u202fContext\u202fProt",
+          "url": "https://github.com/chetan0220/Noesis",
+          "topics": [
+            "agentic-ai",
+            "agents",
+            "automation",
+            "data-analysis-assistant",
+            "data-science",
+            "fastapi",
+            "fastmcp",
+            "langchain",
+            "langgraph",
+            "langsmith",
+            "llm",
+            "mcp",
+            "mcp-client",
+            "mcp-server",
+            "minio-storage",
+            "model-context-protocol",
+            "nextjs",
+            "postgres",
+            "python",
+            "scikit-learn"
+          ]
+        }
+      ]
+    },
+    "hacker_news": {
+      "stories_found": 4,
+      "total_points": 722,
+      "total_comments": 294,
+      "top_stories": [
+        {
+          "title": "Launch HN: Voker (YC S24) \u2013 Analytics for AI Agents",
+          "url": "https://voker.ai",
+          "points": 59,
+          "comments": 22,
+          "created_at": "2026-05-12T15:45:20Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: FastGraphRAG \u2013 Better RAG using good old PageRank",
+          "url": "https://github.com/circlemind-ai/fast-graphrag",
+          "points": 457,
+          "comments": 119,
+          "created_at": "2024-11-18T17:43:13Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Launch HN: Screenpipe (YC S26) \u2013 Record how you work and turn that into agents",
+          "url": "https://news.ycombinator.com/item?id=",
+          "points": 87,
+          "comments": 67,
+          "created_at": "2026-07-23T16:48:38Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Launch HN: Context.dev (YC S26) \u2013 API to get structured data from any website",
+          "url": "https://www.context.dev",
+          "points": 119,
+          "comments": 86,
+          "created_at": "2026-07-09T15:28:39Z",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    "reddit": {
+      "posts_found": 0,
+      "total_score": 0,
+      "total_comments": 0,
+      "top_posts": []
+    },
+    "growth_estimate": "+6 new repos (2025 H2)",
+    "sources_graded": [
+      {
+        "url": "https://github.com/zimingyou01/DatawiseAgent",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/Alfredd43/N8N-workflow-for-Github",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/Shuvadip-Dutta/AI-DataScience-Team",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/im-aswajith/nexus-coder",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/chetan0220/Noesis",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://voker.ai",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://github.com/circlemind-ai/fast-graphrag",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://www.context.dev",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      }
+    ],
+    "analyzed_at": "2026-07-31T02:29:04.417276+00:00"
+  },
+  "generative AI data visualization": {
+    "trend_name": "generative AI data visualization",
+    "github": {
+      "repos_found": 10,
+      "total_stars": 21,
+      "total_forks": 3,
+      "top_languages": {
+        "Jupyter Notebook": 4,
+        "Python": 3,
+        "TypeScript": 1,
+        "JavaScript": 1,
+        "HTML": 1
+      },
+      "top_repos": [
+        {
+          "name": "ahmadsanafarooq/Python-AI-Bootcamp",
+          "stars": 10,
+          "language": "Jupyter Notebook",
+          "created": "2025-06-28T22:05:35Z",
+          "description": "This repository contains all the hands-on projects, assignments, notebooks, and learning materials from the Python & AI Bootcamp at iCode Guru. Topics",
+          "url": "https://github.com/ahmadsanafarooq/Python-AI-Bootcamp",
+          "topics": [
+            "agentic-ai",
+            "ai",
+            "aiagent",
+            "deeplearning-ai",
+            "generative-ai",
+            "machienlearning",
+            "matplotlib",
+            "numpy",
+            "pandas",
+            "plotly",
+            "python",
+            "seaborn"
+          ]
+        },
+        {
+          "name": "codewithgaji/Generative-Ai",
+          "stars": 3,
+          "language": "Jupyter Notebook",
+          "created": "2025-01-10T09:52:01Z",
+          "description": "A Learning path for any Ai developer to follow, with test codes to run and see how each libraries work, like: Numpy for arrays, Tensors for deep learn",
+          "url": "https://github.com/codewithgaji/Generative-Ai",
+          "topics": []
+        },
+        {
+          "name": "nikhilswayampakula/generative-ai-dataset-generator",
+          "stars": 1,
+          "language": "Python",
+          "created": "2025-10-16T01:03:11Z",
+          "description": "Build a Generative AI Model from scratch using VAEs and GANs to create synthetic datasets for text, images, and tabular data. Features FastAPI for rea",
+          "url": "https://github.com/nikhilswayampakula/generative-ai-dataset-generator",
+          "topics": []
+        },
+        {
+          "name": "tmoody1973/streaming-analytics-app",
+          "stars": 1,
+          "language": "TypeScript",
+          "created": "2025-10-06T21:16:27Z",
+          "description": "AI-powered infinite canvas dashboard builder for radio streaming analytics. Upload CSV data, use natural language to create visualizations, and build ",
+          "url": "https://github.com/tmoody1973/streaming-analytics-app",
+          "topics": [
+            "ai",
+            "analytics",
+            "business-intelligence",
+            "tldraw"
+          ]
+        },
+        {
+          "name": "piduguabhinaya850/Marketmind-generative-AI",
+          "stars": 1,
+          "language": "Python",
+          "created": "2026-03-09T04:51:33Z",
+          "description": "MarketMind is a Generative AI-powered sales and marketing intelligence platform that helps businesses analyze market trends, generate marketing conten",
+          "url": "https://github.com/piduguabhinaya850/Marketmind-generative-AI",
+          "topics": []
+        }
+      ]
+    },
+    "hacker_news": {
+      "stories_found": 10,
+      "total_points": 1261,
+      "total_comments": 561,
+      "top_stories": [
+        {
+          "title": "Launch HN: Second (YC W23) \u2013 AI bots that add features to web apps",
+          "url": "https://news.ycombinator.com/item?id=",
+          "points": 260,
+          "comments": 199,
+          "created_at": "2023-03-09T16:30:45Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Launch HN: UpTrain (YC W23) \u2013 Open-source performance monitoring for ML models",
+          "url": "https://news.ycombinator.com/item?id=",
+          "points": 138,
+          "comments": 31,
+          "created_at": "2023-03-08T15:05:52Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Launch HN: Silurian (YC S24) \u2013 Simulate the Earth",
+          "url": "https://news.ycombinator.com/item?id=",
+          "points": 338,
+          "comments": 141,
+          "created_at": "2024-09-16T14:32:38Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: Tako, a Knowledge Search API",
+          "url": "https://trytako.com/playground/",
+          "points": 22,
+          "comments": 12,
+          "created_at": "2025-05-14T17:04:56Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
+          "url": "https://microsoft.github.io/flint-chart/#/",
+          "points": 350,
+          "comments": 138,
+          "created_at": "2026-07-08T17:46:12Z",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    "reddit": {
+      "posts_found": 0,
+      "total_score": 0,
+      "total_comments": 0,
+      "top_posts": []
+    },
+    "growth_estimate": "+7 new repos (2025 H2)",
+    "sources_graded": [
+      {
+        "url": "https://github.com/ahmadsanafarooq/Python-AI-Bootcamp",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/codewithgaji/Generative-Ai",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/nikhilswayampakula/generative-ai-dataset-generator",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/tmoody1973/streaming-analytics-app",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/piduguabhinaya850/Marketmind-generative-AI",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://trytako.com/playground/",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://microsoft.github.io/flint-chart/#/",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      }
+    ],
+    "analyzed_at": "2026-07-31T02:29:05.779321+00:00"
+  },
+  "AI agent framework 2025": {
+    "trend_name": "AI agent framework 2025",
+    "github": {
+      "repos_found": 10,
+      "total_stars": 308,
+      "total_forks": 59,
+      "top_languages": {
+        "Python": 5,
+        "Jupyter Notebook": 1,
+        "Go": 1,
+        "Kotlin": 1
+      },
+      "top_repos": [
+        {
+          "name": "FreedomIntelligence/TwinMarket",
+          "stars": 205,
+          "language": "Python",
+          "created": "2025-09-30T23:22:21Z",
+          "description": "[NeurIPS 2025 & ICLR 2025 Financial AI Best Paper Award] A multi-agent framework that leverages LLMs to simulate socio-economic systems",
+          "url": "https://github.com/FreedomIntelligence/TwinMarket",
+          "topics": [
+            "agent",
+            "computational-social-science",
+            "fintech",
+            "social-simulation"
+          ]
+        },
+        {
+          "name": "petrosrapto/PAKTON",
+          "stars": 45,
+          "language": "Jupyter Notebook",
+          "created": "2025-05-31T15:08:10Z",
+          "description": "Code for \"PAKTON: A Multi-Agent Framework for Question Answering in Long Legal Agreements\", accepted for Oral Presentation at the Main Conference of E",
+          "url": "https://github.com/petrosrapto/PAKTON",
+          "topics": [
+            "ai",
+            "chatbot",
+            "contracts",
+            "legalai",
+            "llms",
+            "multi-agent-systems",
+            "rag",
+            "retrieval-augmented-generation"
+          ]
+        },
+        {
+          "name": "ncz-os/mnemos",
+          "stars": 29,
+          "language": "Python",
+          "created": "2026-04-22T16:28:27Z",
+          "description": "Production-grade memory operating system for agentic AI. Interoperates with every major framework via MCP, OpenAI-compatible gateway, and native /v1/*",
+          "url": "https://github.com/ncz-os/mnemos",
+          "topics": [
+            "ai-agents",
+            "apache-2-0",
+            "fastapi",
+            "graeae",
+            "memory-operating-system",
+            "mnemos",
+            "multi-llm",
+            "pgvector",
+            "postgresql",
+            "python"
+          ]
+        },
+        {
+          "name": "Abdullah4AI/apple-developer-toolkit",
+          "stars": 8,
+          "language": "Go",
+          "created": "2026-02-16T17:57:59Z",
+          "description": "Apple Developer Documentation CLI skill for AI agents. Search docs, frameworks, APIs, WWDC videos 2014-2025, and sample code. Direct integration with ",
+          "url": "https://github.com/Abdullah4AI/apple-developer-toolkit",
+          "topics": []
+        },
+        {
+          "name": "renatogroffe/semantic-kernel-agent-framework_escolalivreia-2025-11",
+          "stars": 6,
+          "language": null,
+          "created": "2025-11-29T07:05:11Z",
+          "description": "Slides e conte\u00fados de apresenta\u00e7\u00e3o sobre Agent Framework e Semantic Kernel. Tecnologias abordadas: Azure OpenAI, Azure AI Foundry, Docker, OpenTelemet",
+          "url": "https://github.com/renatogroffe/semantic-kernel-agent-framework_escolalivreia-2025-11",
+          "topics": []
+        }
+      ]
+    },
+    "hacker_news": {
+      "stories_found": 10,
+      "total_points": 1872,
+      "total_comments": 725,
+      "top_stories": [
+        {
+          "title": "Show HN: AI-powered web service combining FastAPI, Pydantic-AI, and MCP servers",
+          "url": "https://github.com/Aherontas/Pycon_Greece_2025_Presentation_Agents",
+          "points": 46,
+          "comments": 24,
+          "created_at": "2025-09-14T21:17:56Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Launch HN: Manufact (YC S25) \u2013 MCP Cloud",
+          "url": "https://manufact.com",
+          "points": 111,
+          "comments": 70,
+          "created_at": "2026-07-02T15:11:20Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: Feather \u2013 a fresh Tcl reimplementation (WASM, Go)",
+          "url": "https://www.feather-lang.dev",
+          "points": 31,
+          "comments": 5,
+          "created_at": "2025-12-27T14:06:37Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: I recreated Windows XP as my portfolio",
+          "url": "https://mitchivin.com/",
+          "points": 1032,
+          "comments": 323,
+          "created_at": "2025-09-07T01:44:19Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: R2R V2 \u2013 A open source RAG engine with prod features",
+          "url": "https://github.com/SciPhi-AI/R2R",
+          "points": 251,
+          "comments": 71,
+          "created_at": "2024-06-26T13:27:14Z",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    "reddit": {
+      "posts_found": 0,
+      "total_score": 0,
+      "total_comments": 0,
+      "top_posts": []
+    },
+    "growth_estimate": "+9 new repos (2025 H2)",
+    "sources_graded": [
+      {
+        "url": "https://github.com/FreedomIntelligence/TwinMarket",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/petrosrapto/PAKTON",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/ncz-os/mnemos",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/Abdullah4AI/apple-developer-toolkit",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/renatogroffe/semantic-kernel-agent-framework_escolalivreia-2025-11",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/Aherontas/Pycon_Greece_2025_Presentation_Agents",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://manufact.com",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://www.feather-lang.dev",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://mitchivin.com/",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://github.com/SciPhi-AI/R2R",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      }
+    ],
+    "analyzed_at": "2026-07-31T02:29:07.209358+00:00"
+  },
+  "open source data pipeline": {
+    "trend_name": "open source data pipeline",
+    "github": {
+      "repos_found": 10,
+      "total_stars": 2355,
+      "total_forks": 504,
+      "top_languages": {
+        "Python": 5,
+        "Rust": 1,
+        "TypeScript": 1,
+        "HTML": 1
+      },
+      "top_repos": [
+        {
+          "name": "slothflowlabs/duckle",
+          "stars": 891,
+          "language": "Rust",
+          "created": "2026-05-21T06:32:39Z",
+          "description": "Open-source ETL/ELT on DuckDB. Write, wire, or draw one pipeline: 350+ components, 160+ connectors, dbt, CDC, data quality, a Python API, and MCP for ",
+          "url": "https://github.com/slothflowlabs/duckle",
+          "topics": [
+            "ai-agents",
+            "cdc",
+            "connectors",
+            "data-engineering",
+            "data-integration",
+            "data-pipeline",
+            "data-quality",
+            "data-transformation",
+            "dbt",
+            "developer-tools",
+            "duckdb",
+            "elt",
+            "etl",
+            "local-first",
+            "mcp",
+            "no-code",
+            "python",
+            "reverse-etl",
+            "rust",
+            "self-hosted"
+          ]
+        },
+        {
+          "name": "glassflow/clickhouse-etl",
+          "stars": 493,
+          "language": "TypeScript",
+          "created": "2025-04-22T08:22:30Z",
+          "description": "GlassFlow: Open source data ingestion and transformations for ClickHouse pipelines",
+          "url": "https://github.com/glassflow/clickhouse-etl",
+          "topics": [
+            "clickhouse",
+            "glassflow",
+            "kafka",
+            "otlp",
+            "realtime-etl",
+            "streamprocessing"
+          ]
+        },
+        {
+          "name": "cchenax/streamforge-ai",
+          "stars": 296,
+          "language": "Python",
+          "created": "2026-03-17T12:54:43Z",
+          "description": "Open-source real-time AI data pipeline for CDC ingestion, feature generation, and storage-aware prefetching",
+          "url": "https://github.com/cchenax/streamforge-ai",
+          "topics": []
+        },
+        {
+          "name": "caiopizzol/cnpj-data-pipeline",
+          "stars": 286,
+          "language": "Python",
+          "created": "2025-06-15T11:11:27Z",
+          "description": "Pipeline open-source que baixa e processa os dados da Receita Federal para PostgreSQL",
+          "url": "https://github.com/caiopizzol/cnpj-data-pipeline",
+          "topics": [
+            "brazil",
+            "cnpj",
+            "etl",
+            "open-data",
+            "pipeline",
+            "postgresql",
+            "python",
+            "receita-federal"
+          ]
+        },
+        {
+          "name": "jacob-bd/openclaw-newsroom",
+          "stars": 175,
+          "language": "Python",
+          "created": "2026-03-03T17:37:44Z",
+          "description": "Automated AI news scanning pipeline for OpenClaw \u2014 5 data sources, quality scoring, Gemini Flash editorial curation. ~$5/month.",
+          "url": "https://github.com/jacob-bd/openclaw-newsroom",
+          "topics": []
+        }
+      ]
+    },
+    "hacker_news": {
+      "stories_found": 10,
+      "total_points": 1063,
+      "total_comments": 269,
+      "top_stories": [
+        {
+          "title": "Show HN: I built an open-source data pipeline tool in Go",
+          "url": "https://github.com/bruin-data/bruin",
+          "points": 200,
+          "comments": 48,
+          "created_at": "2024-12-17T16:40:31Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: All-in-one open source tool for data pipelines",
+          "url": "https://github.com/mage-ai/mage-ai",
+          "points": 21,
+          "comments": 0,
+          "created_at": "2022-09-28T21:06:21Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Show HN: Open-source infra for building embedded data pipelines",
+          "url": "https://github.com/pipebird/pipebird",
+          "points": 41,
+          "comments": 20,
+          "created_at": "2022-09-01T16:57:31Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Ask HN: Can we build an open source platform that helps COVID-19 patients?",
+          "url": "https://news.ycombinator.com/item?id=",
+          "points": 14,
+          "comments": 3,
+          "created_at": "2020-03-14T18:48:34Z",
+          "source": "Hacker News"
+        },
+        {
+          "title": "Launch HN: BuildFlow (YC W23) \u2013 The FastAPI of data pipelines",
+          "url": "https://news.ycombinator.com/item?id=",
+          "points": 104,
+          "comments": 35,
+          "created_at": "2023-03-15T14:55:01Z",
+          "source": "Hacker News"
+        }
+      ]
+    },
+    "reddit": {
+      "posts_found": 0,
+      "total_score": 0,
+      "total_comments": 0,
+      "top_posts": []
+    },
+    "growth_estimate": "+8 new repos (2025 H2)",
+    "sources_graded": [
+      {
+        "url": "https://github.com/slothflowlabs/duckle",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/glassflow/clickhouse-etl",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/cchenax/streamforge-ai",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/caiopizzol/cnpj-data-pipeline",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/jacob-bd/openclaw-newsroom",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/bruin-data/bruin",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://github.com/mage-ai/mage-ai",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://github.com/pipebird/pipebird",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=",
+        "grade": "\ud83d\udd0d Indice",
+        "type": "Hacker News"
+      }
+    ],
+    "analyzed_at": "2026-07-31T02:29:08.511558+00:00"
+  },
+  "AI-powered BI dashboard": {
+    "trend_name": "AI-powered BI dashboard",
+    "github": {
+      "repos_found": 10,
+      "total_stars": 102,
+      "total_forks": 79,
+      "top_languages": {
+        "Python": 6,
+        "TypeScript": 2,
+        "Jupyter Notebook": 1,
+        "HTML": 1
+      },
+      "top_repos": [
+        {
+          "name": "ReverendBayes/AI-Powered-Call-Center-Intelligence",
+          "stars": 28,
+          "language": "Python",
+          "created": "2025-04-13T23:48:58Z",
+          "description": "Real-time behavioral intelligence for call centers. Transcribes support calls, redacts PII, extracts emotional tone, classifies issues, and delivers i",
+          "url": "https://github.com/ReverendBayes/AI-Powered-Call-Center-Intelligence",
+          "topics": [
+            "altair",
+            "azure-alternative",
+            "call-intelligence",
+            "callcenter-analysis",
+            "churn-prediction",
+            "duckdb",
+            "emotion-recognition",
+            "fastapi",
+            "huggingface",
+            "jupyter-notebook",
+            "openai",
+            "pii-redaction",
+            "presidio",
+            "prompt-engineering",
+            "react",
+            "real-time-ai",
+            "sentiment-analysis",
+            "spacy",
+            "typescript-react",
+            "whisper"
+          ]
+        },
+        {
+          "name": "Prateekiiitg56/BizInsight-AI",
+          "stars": 21,
+          "language": "TypeScript",
+          "created": "2026-01-26T18:00:37Z",
+          "description": "BizInsight AI is an AI-powered platform that converts customer reviews into actionable insights using sentiment analysis, issue detection, trend track",
+          "url": "https://github.com/Prateekiiitg56/BizInsight-AI",
+          "topics": []
+        },
+        {
+          "name": "bonfirer/LingxiBI",
+          "stars": 17,
+          "language": "TypeScript",
+          "created": "2026-06-12T07:45:31Z",
+          "description": "AI-powered data analytics & reporting platform. Connect databases, ask questions in natural language, and auto-generate interactive dashboards.",
+          "url": "https://github.com/bonfirer/LingxiBI",
+          "topics": [
+            "ai",
+            "analytics",
+            "bi",
+            "dashboard",
+            "data-analysis",
+            "llm",
+            "react",
+            "rust",
+            "self-hosted",
+            "text-to-sql"
+          ]
+        },
+        {
+          "name": "thebingoai/thebingoai",
+          "stars": 9,
+          "language": "Python",
+          "created": "2026-04-17T01:46:16Z",
+          "description": "An open-source BI platform with AI-powered dashboards, real-time chat, and multi-database connectivity. FastAPI + Nuxt 4 + LangGraph.",
+          "url": "https://github.com/thebingoai/thebingoai",
+          "topics": [
+            "ai",
+            "anthropic",
+            "bi",
+            "business-intelligence",
+            "dashboards",
+            "fastapi",
+            "langgraph",
+            "llm",
+            "nuxt",
+            "ollama",
+            "openai",
+            "python",
+            "qdrant",
+            "rag",
+            "typescript"
+          ]
+        },
+        {
+          "name": "Sumersingpatil2694/Fake-Job-Detection-And-Hiring-Market-Analysis",
+          "stars": 8,
+          "language": "Jupyter Notebook",
+          "created": "2026-03-14T20:05:14Z",
+          "description": "AI-powered Fake Job Detection System using NLP, TF-IDF, Logistic Regression & SMOTE. Features SHAP explainability, Power BI dashboard, MySQL integrati",
+          "url": "https://github.com/Sumersingpatil2694/Fake-Job-Detection-And-Hiring-Market-Analysis",
+          "topics": []
+        }
+      ]
+    },
+    "hacker_news": {
+      "stories_found": 0,
+      "total_points": 0,
+      "total_comments": 0,
+      "top_stories": []
+    },
+    "reddit": {
+      "posts_found": 0,
+      "total_score": 0,
+      "total_comments": 0,
+      "top_posts": []
+    },
+    "growth_estimate": "+8 new repos (2025 H2)",
+    "sources_graded": [
+      {
+        "url": "https://github.com/ReverendBayes/AI-Powered-Call-Center-Intelligence",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/Prateekiiitg56/BizInsight-AI",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/bonfirer/LingxiBI",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/thebingoai/thebingoai",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      },
+      {
+        "url": "https://github.com/Sumersingpatil2694/Fake-Job-Detection-And-Hiring-Market-Analysis",
+        "grade": "\u2705 Confirmed",
+        "type": "GitHub repo"
+      }
+    ],
+    "analyzed_at": "2026-07-31T02:29:10.076077+00:00"
+  }
+}
