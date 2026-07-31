@@ -20,6 +20,8 @@ pip install -r requirements.txt
 
 ## CI/CD
 ![CI](https://github.com/ELATLASS/atlass-ecommerce/actions/workflows/ci.yml/badge.svg)
+n## 📊 Latest Case Study
+- [case-studies/ecommerce/ai-ecommerce-2025-2026.md](https://github.com/ELATLASS/atlass-ecommerce/blob/main/case-studies/ecommerce/ai-ecommerce-2025-2026.md)
 
 ## License
 MIT — Atlass Corp
