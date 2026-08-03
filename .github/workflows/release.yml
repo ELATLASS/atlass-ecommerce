@@ -12,12 +12,12 @@ jobs:
     name: Create GitHub Release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@a2d1cbb0c7eab3e3e9e955f1e6e5f4a0b0c0d0e0 # v4.2.2
+      - uses: actions/checkout@f548e57e544e1ff5a4c46bf1e1b8685f8e4a348a # v4.2.2
         with:
           fetch-depth: 0  # Required for changelog generation
 
       - name: Setup Python
-        uses: actions/setup-python@115c3a09f4103a3c4eda0c6170dcb611e3d28 # v5.7.0
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v5.7.0
         with:
           python-version: '3.11'
 
