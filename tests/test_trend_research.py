@@ -3,8 +3,6 @@ import json
 import os
 import sys
 
-import pytest
-
 
 def test_trend_research_imports():
     """Ensure trend_research.py can be imported without runtime errors."""

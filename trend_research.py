@@ -8,12 +8,13 @@ analyzes with pandas/SQL, and generates case studies with source grading.
 Run via cron: every 6 hours
 Output: data/trends.json + case-studies/*.md
 """
-import requests
 import json
 import os
 import re
-from datetime import datetime, timezone
 from collections import defaultdict
+from datetime import datetime, timezone
+
+import requests
 
 # ─── Configuration ───────────────────────────────────────────────────────────
 
@@ -296,7 +297,7 @@ sur {gh['repos_found']} repositories majeurs. La croissance estimée est de
 
 ### 2. Technologies associées
 Les langages dominants sont : {', '.join(f'{k} ({v} repos)' for k, v in list(gh['top_languages'].items())[:3])}.
-Les topics récurrents incluent : {', '.join(set(t for r in gh['top_repos'] for t in r.get('topics', [])[:10]))}.
+Les topics récurrents incluent : {', '.join({t for r in gh['top_repos'] for t in r.get('topics', [])[:10]})}.
 
 ### 3. Engagement en dehors de GitHub
 - **Hacker News** : {hn['total_points']} points, {hn['total_comments']} commentaires
@@ -369,7 +370,7 @@ def main():
     # Save combined data
     with open("data/trends.json", "w") as f:
         json.dump(all_trends, f, indent=2, default=str)
-    print(f"\n✓ All data saved to data/trends.json")
+    print("\n✓ All data saved to data/trends.json")
 
     # Generate summary
     summary = {
@@ -383,9 +384,9 @@ def main():
     }
     with open("data/trends_summary.json", "w") as f:
         json.dump(summary, f, indent=2)
-    print(f"✓ Summary saved to data/trends_summary.json")
+    print("✓ Summary saved to data/trends_summary.json")
 
-    print(f"\n✅ Pipeline complete!")
+    print("\n✅ Pipeline complete!")
     print(f"   Trends analyzed: {summary['trends_analyzed']}")
     print(f"   Total repos: {summary['total_github_repos']}")
     print(f"   Total stars: {summary['total_stars']:,}")
