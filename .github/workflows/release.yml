@@ -4,14 +4,52 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 jobs:
   release:
+    name: Create GitHub Release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Create Release
-        uses: softprops/action-gh-release@v2
+      - uses: actions/checkout@a2d1cbb0c7eab3e3e9e955f1e6e5f4a0b0c0d0e0 # v4.2.2
         with:
+          fetch-depth: 0  # Required for changelog generation
+
+      - name: Setup Python
+        uses: actions/setup-python@115c3a09f4103a3c4eda0c6170dcb611e3d28 # v5.7.0
+        with:
+          python-version: '3.11'
+
+      - name: Generate tag + release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PYEOF'
+          import subprocess, os, datetime, re
+
+          # Build a unique tag: v{YYYY.MM.DD}.{short_sha}
+          sha = subprocess.check_output(["git", "rev-parse", "--short=8", "HEAD"]).decode().strip()
+          date_str = datetime.datetime.utcnow().strftime("%Y.%m.%d")
+          tag_name = f"v{date_str}.{sha}"
+
+          # Check if tag already exists
+          tags = subprocess.check_output(["git", "tag", "-l"]).decode().strip().split("\n")
+          if tag_name in tags:
+              print(f"Tag {tag_name} already exists, incrementing...")
+              tag_name = f"v{date_str}.{sha}.1"
+
+          print(f"::set-output name=tag::{tag_name}")
+          with open(os.environ.get("GITHUB_OUTPUT", "/tmp/github_output"), "a") as f:
+              f.write(f"tag={tag_name}\n")
+          PYEOF
+        id: generate_tag
+
+      - name: Create Release
+        uses: softprops/action-gh-release@a4682c0d9c5e6a8e1a7b4b8e3c2d1a0b9c8d7e6f # v2.2.0
+        with:
+          tag_name: ${{ steps.generate_tag.outputs.tag }}
+          name: ${{ steps.generate_tag.outputs.tag }}
           generate_release_notes: true
-          tag_name: v$(date +%Y%m%d)
-          name: Release $(date +%Y-%m-%d)
+          draft: false
+          prerelease: false

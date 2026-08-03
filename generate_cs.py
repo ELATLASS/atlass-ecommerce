@@ -1,5 +1,6 @@
-import json, requests, sys
-from datetime import datetime
+import sys
+
+import requests
 
 query = sys.argv[1]
 name = sys.argv[2]
@@ -36,7 +37,7 @@ for r in repos[:5]:
 md += "\n## Métriques\n"
 md += "- **Repos trouvés** : " + str(len(repos)) + "\n"
 md += "- **Stars cumulées** : " + str(sum(r.get("stargazers_count", 0) for r in repos)) + "\n"
-md += "- **Langages** : " + ", ".join(set(r.get("language", "") for r in repos if r.get("language"))) + "\n\n"
+md += "- **Langages** : " + ", ".join({r.get("language", "") for r in repos if r.get("language")}) + "\n\n"
 md += "## Source Grading\n"
 md += "- ✅ **Confirmed** : GitHub API data\n"
 md += "- 🔍 **Indice** : Repo descriptions\n"

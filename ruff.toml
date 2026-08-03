@@ -1,0 +1,12 @@
+# Ruff — Fast Python linter in Rust
+target-version = "py311"
+line-length = 88
+
+[lint]
+select = ["E", "W", "F", "I", "B", "C4", "SIM"]
+# E501 line-too-long is too noisy for OSINT/markdown-generation scripts
+# with long f-strings and URLs — skip it
+ignore = ["E501"]
+
+[lint.isort]
+known-first-party = ["trend_research", "generate_cs"]
